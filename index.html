@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Islamic Book Library</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-animated"></div>
+
+  <h1 class="main-title">📚 My Islamic Book Library</h1>
+
+  <div class="book-grid">
+    <!-- 📘 Example Book Cards -->
+    
+    
+  </div>
+  <button class="add-button">New Book</button>
+<div class="div-form">
+  <h2>Add a New Book</h2>
+  <form id="book-form">
+    <label for="book-name">Book Name</label>
+    <input type="text" id="book-name" required>
+
+    <label for="book-author">Author</label>
+    <input type="text" id="book-author" required>
+
+    <label for="book-pages">Pages</label>
+    <input type="number" id="book-pages" required>
+
+    <label for="book-read">Have you read it?</label>
+    <select id="book-read">
+      <option value="true">Yes ✅</option>
+      <option value="false">No ❌</option>
+    </select>
+
+    <button type="submit" class="submit">➕ Add Book</button>
+  </form>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
